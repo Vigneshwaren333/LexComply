@@ -29,9 +29,9 @@ app.use(express.json());
 
 // MySQL Connection
 const db = mysql.createConnection({
-  host: '127.0.0.1',
-  user: 'root',
-  password: '1109',
+  host: '',
+  user: '',
+  password: '',
   database: 'rti_database',
   port: 3308
 }).promise(); // Using promise-based connection consistently

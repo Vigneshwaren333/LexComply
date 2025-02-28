@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const GeminiChatbot = () => {
   // Replace this with your actual API key
-  const API_KEY = 'AIzaSyAEbBXAYbf_bEEB020_s2iyd658yMfPWVQ';
+  const API_KEY = '';
   
   const [messages, setMessages] = useState([
     { text: 'Hello! How can I help you with legal questions today?', sender: 'bot' }
